@@ -42,3 +42,23 @@ section.main{
     display: inline-block;
     margin: 0 10px;
 }
+
+.items-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+.items-menu a.contact-btn{
+    background-color: #0f3fd3;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.items-menu a.contact-btn:hover{
+    border: 0;
+}
+
+.mockup{display: block; width: 100%; color: white; text-align: center; padding: 100px;}
+
+.mockup h1{font-size: 50px;}
+
+.mockup img{max-width: 100%;}
