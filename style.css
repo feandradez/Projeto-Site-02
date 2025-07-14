@@ -62,3 +62,29 @@ section.main{
 .mockup h1{font-size: 50px;}
 
 .mockup img{max-width: 100%;}
+
+section.marcas img{
+    width: calc(100%/5);
+}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #f3fcfe;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
