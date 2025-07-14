@@ -118,3 +118,20 @@ section.porque-nos > .center > p{
     color: #7e92ac;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+}
+
+section.marcas > .center{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.marcas img{
+    max-width: 200px;
+    width: 100%;
+}
