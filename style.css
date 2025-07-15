@@ -119,15 +119,78 @@ section.porque-nos > .center > p{
     margin-bottom: 20px;
 }
 
+section.cta{
+    background-image: url('images/banner_meio.svg');
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+section.cta h2, section.cta h4{
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #FFDD33;
+    color: #0f3fd3;
+}
+
+.lista-beneficios{
+    width: 50%;
+}
+
+.lista-beneficios p{
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% -70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.img-beneficios{
+    width: 50%;
+}
+
+.img-beneficios img{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 768px){
+    section.marcas img{
+        max-width: 120px;
+        width: 100%;
+    }
     .diferenciais{
         flex-wrap: wrap;
     }
 }
 
 section.marcas > .center{
-    flex-wrap: nowrap;
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
