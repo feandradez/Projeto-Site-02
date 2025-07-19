@@ -206,8 +206,17 @@ section.depoimentos > h1{
 
 .container-slider-single{
     float: left;
-    background-color: red;
-    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.container-slider-single p{
+    margin: 15px 0;
+    color: #7e92ac;
+    font-size: 14px;
+    
 }
 
 .slick-slide{
@@ -217,8 +226,7 @@ section.depoimentos > h1{
 /* the parent */
   .slick-list {
     margin-left:-27px;
-   
-  }
+}
 
 /****SLICK SLIDER****/
 
@@ -232,7 +240,7 @@ section.depoimentos > h1{
 
 .slick-dotted li{
 	display: inline-block;
-	margin: 0 7px;
+	margin: 30 7px;
 }
 
 .slick-dotted button:focus{
@@ -256,6 +264,17 @@ li.slick-active button{
 }
 
 .slick-slide:focus { outline: none; }
+
+/* FIM SLICK SLIDER */
+
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    font-size: 50px;
+}
 
 @media screen and (max-width: 768px){
     .center{
