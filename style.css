@@ -264,9 +264,10 @@ li.slick-active button{
 }
 
 .slick-slide:focus { outline: none; }
-
 /* FIM SLICK SLIDER */
 
+
+/* CONTATO - RODAPÉ */
 section.contato{
     padding: 40px 0;
     text-align: center;
