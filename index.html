@@ -21,6 +21,14 @@
                         <a href="">Depoimentos</a>
                         <a class="contact-btn" href="">Entre em contato</a>
                     </div>
+                    <div class="items-menu-mobile">
+                        <i class="fa fa-bars" area-hidden="true"></i>
+                        <div class="menu-mobile">
+                            <a href="">Início</a>
+                            <a href="">Por que nós?</a>
+                            <a href="">Depoimentos</a>
+                        </div>
+                    </div><!--menu mobile-->
                 </div><!--menu-->
 
                 <div class="mockup">
@@ -210,6 +218,20 @@
                               }
                             }],
                 });
+        </script>
+
+        <script>
+            var menuBtn = document.querySelector('.items-menu-mobile i');
+            menuBtn.addEventListener('click',()=>{
+                let itemsMenu = document.querySelector('.menu-mobile');
+                if(itemsMenu.classList.contains('show')){
+                    itemsMenu.classList.remove('show');
+                    itemsMenu.classList.add('hide');
+                }else{
+                    itemsMenu.classList.remove('hide');
+                    itemsMenu.classList.add('show');
+                }
+            });
         </script>
 
     </body>
