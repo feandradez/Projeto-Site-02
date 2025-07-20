@@ -276,7 +276,79 @@ section.contato h1{
     font-size: 50px;
 }
 
+section.contato form{
+    width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=email]
+{
+    width: 100%;
+    height: 55px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border: 1px solid #fcfdff;
+    padding: 10px;
+}
+
+.contato textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border: 1px solid #fcfdff;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit]{
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    background: #255aff;
+    color: white;
+    font-size: 16px;
+}
+
+.contato input[type=text],
+.contato input[type=email],
+.contato textarea{
+    margin: 10px 0;
+}
+/* FIM CONTATO - RODAPÉ */
+
+
+/*Footer*/
+footer{
+    padding: 10px 0;
+    background: #255aff;
+    color: white;
+}
+
+.text-footer{
+    width: 50%;
+    padding: 8px 0;
+}
+
 @media screen and (max-width: 768px){
+    footer .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+    footer .items-menu a{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .text-footer{
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    }
     .center{
         flex-direction: column;
     }
